@@ -1,6 +1,6 @@
 BERT_BASE_DIR=./pretrain
 rm -rf $BERT_BASE_DIR/pretraining_output
-TF_CPP_MIN_LOG_LEVEL=1 CUDA_VISIBLE_DEVICES=0 \
+TF_CPP_MIN_LOG_LEVEL=1 \
 python run_pretraining.py \
   --input_file=$BERT_BASE_DIR/tf_examples.tfrecord \
   --output_dir=$BERT_BASE_DIR/pretraining_output \
