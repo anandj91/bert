@@ -1,4 +1,4 @@
-BERT_BASE_DIR=/home/anandj/data/code/bert/pretrain
+BERT_BASE_DIR=./pretrain
 python create_pretraining_data.py \
   --input_file=./sample_text.txt \
   --output_file=$BERT_BASE_DIR/tf_examples.tfrecord \

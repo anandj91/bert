@@ -1,4 +1,4 @@
-BERT_BASE_DIR=/home/anandj/data/code/bert/uncased_L-12_H-768_A-12
+BERT_BASE_DIR=./uncased_L-12_H-768_A-12
 SQUAD_DIR=$BERT_BASE_DIR/squad
 python run_squad.py \
   --vocab_file=$BERT_BASE_DIR/vocab.txt \
